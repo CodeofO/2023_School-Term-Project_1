@@ -23,7 +23,7 @@ target 값 : MedVal
 
 이 가설을 시험해보고자 다음과 같은 순서를 따라 전처리를 진행하였습니다. 
 1) 육안으로 봤을 때 높은 집 값들로 형성되어 있는 위치를 확인합니다.
-'''
+```
 # San Francisco Bay의 좌표
 center_lat_sf = 37.7749
 center_lon_sf = -122.4194
@@ -43,12 +43,13 @@ center_lon_mesa = -119.7910
 # Pismo Beach의 좌표
 center_lat_pb = 35.1428
 center_lon_pb = -120.6413
-'''
+```
 👉 총 5곳의 위치가 선정되었습니다. 
 
 2) 모든 sample들과 선정된 5곳과의 거리를 파생변수로 생성하였습니다.
   <img width="993" alt="image" src="https://github.com/CodeofO/School-Term-Project/assets/99871109/e5b5b2b3-976c-4319-916b-a24ece9bfc76">
-'''
+
+```
 # San Francisco Bay의 좌표
 center_lat_sf = 37.7749
 center_lon_sf = -122.4194
@@ -103,7 +104,7 @@ def Pismo_Beach(df):
 
 x_train = Pismo_Beach(x_train)
 x_test = Pismo_Beach(x_test)
-'''
+```
 
 이렇게 1) 위치 선정과 2) 선정된 위치와의 거리를 파생변수로 생성하였습니다. 
 
