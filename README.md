@@ -111,11 +111,10 @@ x_test = Pismo_Beach(x_test)
 이렇게 1) 위치 선정과 2) 선정된 위치와의 거리를 파생변수로 생성하였습니다. 
 
 그 결과 모델의 성능은 
-```0.44 -> 0.41(RMSE, 평균 : priviate, public)```로 상승하였습니다. 
+```0.44 -> 0.41(RMSE, 평균 : priviate, public)```로 상승하였습니다. (전체 2등)
 
 실제로 만든 파생변수는 모델이 예측하는데 큰 도움을 주었음을 ```feature importance```를 통해 확인하였습니다. 
 <img width="1054" alt="image" src="https://github.com/CodeofO/School-Term-Project/assets/99871109/c1ab6791-f064-4ebb-baf1-6cd1fbf6ed66">
 
 
 ### 본 프로젝트를 통해서 그냥 EDA 통해 예측에 도움이 될 방법을 고민하는것이 Data Scientist로서의 기본 역량임을 알게 되었습니다. 
-
