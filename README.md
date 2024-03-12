@@ -7,15 +7,17 @@
   
 데이터는 아래와 같이 정형데이터이며, 7개의 column으로 이루어져 있습니다.   
 <img width="726" alt="image" src="https://github.com/CodeofO/School-Term-Project/assets/99871109/19a5ec0c-5684-4847-a5f9-ffed942a5daa">
+<br>
 target 값 : MedVal  
    
    
 각 column들의 Correlation matrix   
 <img width="981" alt="image" src="https://github.com/CodeofO/School-Term-Project/assets/99871109/6e0686ae-1a85-405e-8d6f-dc23c6db320e">
-   
+<br>
 위도와 경도가 target 값과 크게 영향을 미치지 않는 것을 볼 수 있습니다.   
-   
-하지만 아래 지도 사진을 보면 **'특정 지역에 고가의 집들이 몰려있다'** 라는 것을 눈으로 볼 수 있었습니다. 
+<br>
+<br>
+하지만 아래 지도 사진을 보면 **'특정 지역에 고가의 집들이 몰려있다'** 라는 것을 눈으로 볼 수 있었습니다. <br>
 <img width="998" alt="image" src="https://github.com/CodeofO/School-Term-Project/assets/99871109/ed69c2a8-5960-4379-a373-659af441169c">
 
 따라서 이와 같은 가설을 세울 수 있었습니다. 
