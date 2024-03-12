@@ -58,7 +58,7 @@ center_lon_pb = -120.6413
 center_lat_sf = 37.7749
 center_lon_sf = -122.4194
 
-def sanfrancisco_bay(df): # ✅
+def sanfrancisco_bay(df):
     df['sanfrancisco_bay'] = np.sqrt((df['Latitude'] - center_lat_sf)**2 + (df['Longitude'] - center_lon_sf)**2)
     return df
 
